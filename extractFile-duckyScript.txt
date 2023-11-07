@@ -2,6 +2,7 @@ REM Title: extractFile
 REM Author:	Loux14
 REM Description: Uses SCP to send file to distant computer, must know the user name, file name and location
 REM Must specify path of target file, distant ip, and password to login to distant computer
+REM Distant computer must have ssh running
 REM Target:	MacOs
 REM Version:	1.0
 REM Category: Exfiltration
